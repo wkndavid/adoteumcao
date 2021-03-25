@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background-color: #F1DAC4;
+	font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+section {
+	color: #343434;
+}
+
+h1 {
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+}
+.logo {
+	float: left;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+#banner {
+	background-image: url('../images/7.jpg');
+	height: 500px;
+	width: 100%;
+}
+
+#menu {
+	background-color: rgba(0,0,0,0.5);
+	line-height: 60px;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu a:link, a:visited { 
+	color:whitesmoke;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration:aliceblue;
+	padding: 20px;
+	text-shadow: 1px 1px #000;
+}
+
+#menu a:hover, a:active {
+	color: #1B1A26;
+	background-color: #B99476;
+	text-shadow: 1px 1px #000;
+	border-radius: 10px;
+
+}
+
+#about {
+	padding-top: 60px;
+	font-size: 24px;
+	text-align: center;
+	margin: 25px;	
+}
+
+#gallery {	
+	padding-top: 60px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.galeria {
+	width: 350px;
+	height: 250px;
+	margin: 15px;
+	border: 2px solid whitesmoke;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px #000;
+}
+
+#maps iframe {
+	padding-top: 60px;
+}
+
+#maps {
+	margin: 0;
+}
+p {
+	text-align: center;
+}
+#contacts {	
+	padding-top: 51px;
+	font-size: 24px;
+	text-align: center;
+	display: block;
+}
+
+#contacts label{
+	display: block;
+}
+
+#contacts input, textarea {
+	width: 400px;
+	font-size: 0.9em;
+	padding: 6px;
+	font-family:  Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	border: none;
+}
+
+#contacts button{
+	color: #1B1A26;
+	background-color: #B99476;
+	font-size: 0.8em;
+	margin-top: 20px;
+	padding: 20x;
+	border: 1;
+	text-transform: uppercase;
+
+}
+
+#contacts button:hover{
+	color:  #B99476;
+	background-color:#1B1A26;
+	font-size: 0.8em;
+	margin-top: 20px;
+	padding: 30x;
+	border: 0;
+	
+}
+
+footer {
+	background-color: #1B1A26;
+	text-align: center;
+	padding: 20px;
+	color: azure;
+}
+.linkedin {
+	background-color: whitesmoke;
+}
